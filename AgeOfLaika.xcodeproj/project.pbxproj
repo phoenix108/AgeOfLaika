@@ -13,6 +13,7 @@
 		8B03BA6519D910D40085A663 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B03BA6419D910D40085A663 /* Images.xcassets */; };
 		8B03BA6819D910D40085A663 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B03BA6619D910D40085A663 /* LaunchScreen.xib */; };
 		8B03BA7419D910D40085A663 /* AgeOfLaikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B03BA7319D910D40085A663 /* AgeOfLaikaTests.swift */; };
+		8B03BA7E19D9113A0085A663 /* AgeOfLaika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B03BA7D19D9113A0085A663 /* AgeOfLaika.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8B03BA6D19D910D40085A663 /* AgeOfLaikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeOfLaikaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B03BA7219D910D40085A663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B03BA7319D910D40085A663 /* AgeOfLaikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeOfLaikaTests.swift; sourceTree = "<group>"; };
+		8B03BA7D19D9113A0085A663 /* AgeOfLaika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AgeOfLaika.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		8B03BA5B19D910D40085A663 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8B03BA7D19D9113A0085A663 /* AgeOfLaika.jpg */,
 				8B03BA5C19D910D40085A663 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B03BA6319D910D40085A663 /* Main.storyboard in Resources */,
+				8B03BA7E19D9113A0085A663 /* AgeOfLaika.jpg in Resources */,
 				8B03BA6819D910D40085A663 /* LaunchScreen.xib in Resources */,
 				8B03BA6519D910D40085A663 /* Images.xcassets in Resources */,
 			);
@@ -339,6 +343,7 @@
 				INFOPLIST_FILE = AgeOfLaika/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -349,6 +354,7 @@
 				INFOPLIST_FILE = AgeOfLaika/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var dogYearsLabel: UILabel!
+    
+    @IBOutlet weak var enterHumanYearsTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +25,32 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func convertButtonPressed(sender: UIButton)
+    {
+        
+        
+
+        let yearsInTextField = enterHumanYearsTextField.text
+   
+        let numberInTextField = yearsInTextField.toInt()
+        
+        var integerInTextField = numberInTextField!
+        
+        integerInTextField *= 7
+        
+        let stringWithUpdatedYears = "\(integerInTextField)" + " Is Your Age In Dog Years"
+        
+        dogYearsLabel.hidden = false
+        
+        dogYearsLabel.text = stringWithUpdatedYears
+        
+        enterHumanYearsTextField.resignFirstResponder()
+        
+        
+        
+        
+        
+    }
 
 }
 
